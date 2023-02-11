@@ -1,0 +1,169 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Outfit', sans-serif;
+}
+
+#root {
+    margin: 20px 0 50px 0;
+}
+
+/*  */
+
+#attribution {
+    font-family: 'Outfit', sans-serif;
+    color: white;
+    
+    margin: 35px 0 35px 0;
+    padding-top: 15px;  
+}
+
+#attribution a:link {
+    text-decoration: none;
+    color: red;
+    transition: all 0.5s;
+}
+
+#attribution a:hover {
+    font-size: 18px;
+}
+
+.card-div-and-attribs {
+    display: grid;
+    grid-template-rows: 1fr 48px;
+    justify-items: center;
+    margin-bottom: 20px;
+}
+
+/*  */
+
+body {
+    background-color: hsl(217, 54%, 11%);
+    display: grid;
+    justify-content: center;
+}
+
+.card-div {
+    background-color: hsl(216, 50%, 16%);
+    height: 610px;
+    width: 350px;
+
+    display: flex;
+    flex-direction: column;
+
+    margin-top: 50px;
+    padding-bottom: 10px;
+    padding-top: 21px;
+    padding-left: 21px;
+    padding-right: 21px;
+}
+
+.card-div, .img-class {
+    border-radius: 10px;
+}
+
+.head-p {
+    padding: 25px 0 ; 
+    font-size: 22px;  
+}
+
+.head-p a {
+    color: white;
+    transition: all 0.5s;
+}
+
+.days-p {
+    align-self: center;
+    align-items: center;
+}
+
+.expl {
+    letter-spacing: 1.5px;
+}
+
+.expl, .days-p {
+    color: hsl(215, 51%, 70%);
+}
+
+.mid-bar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 21px;
+    margin-top: 10px;
+    
+}
+
+.eth-class {
+    color: hsl(178, 100%, 50%);
+}
+
+.eth-div, .days-div {
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.clock-div, .eth-icon-class {
+    align-self: center;
+}
+
+.days-p {
+    align-self: center;
+
+}
+
+.eth-icon-class, .clock-div {
+    margin-right:10px;
+}
+
+hr {
+    display: block;
+    margin-top: 2em;
+    
+    border: 0.1px solid hsl(215, 51%, 70%);;
+    border-width: 10%;
+    
+    opacity: 15%;
+}
+
+.creator-div {
+    display: flex;
+    flex-direction: row;
+    
+    margin-top: 20px;
+}
+
+.creator-img {
+    height: 35px;
+    border-radius: 50%;
+    border: 1px solid white;
+    margin-right: 15px;
+}
+
+.name-a {
+    color: white;
+    transition: all 0.5s;
+} 
+
+/* */
+
+.head-div .head-p a:link {
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.head-div .head-p a:hover {
+    color: hsl(178, 100%, 50%);
+}
+
+.creator-p a:link, .img-class a:link {
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.creator-p a:hover {
+    color: hsl(178, 100%, 50%);
+}

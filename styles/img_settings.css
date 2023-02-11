@@ -1,0 +1,48 @@
+.view-svg {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;  
+    transform: translate(-50%, -40%);    
+}
+
+.img-svg {
+    align-self: center;
+    position: absolute;
+    background-color: transparent;
+    
+}
+
+.img-container {
+    align-self: center;
+    display: flex;
+    justify-content: center;
+    transition: all 0.5s;
+    flex-direction: row;
+    position: relative;
+    border-radius: 10px;
+    background: rgba(0, 255, 247, 0.4);
+
+}
+
+.img-class {
+    height: auto;
+    width: 100%;
+    /* justify-content: center; */
+    /* padding-top: 21px; */
+    opacity: 1;
+    display: block;
+    transition: 0.5s ease;
+    backface-visibility: visible;
+
+}
+
+.img-container:hover .view-svg {
+    opacity: 1;
+}
+
+.img-container:hover .img-class {
+    opacity: 0.3;
+    
+}
