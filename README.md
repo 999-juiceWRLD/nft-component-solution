@@ -10,4 +10,6 @@
     - [flexbox cheatsheet](https://flexboxsheet.com)
     - [grid cheatsheet](https://grid.malven.co/)
 
+- You can [click to see](nft-preview-screenshot.png) the page
+
 You can always contact me to give advices, at: `ankaraunifedaisi@gmail.com`
